@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv = "Content-type" content = "text/html; charset = utf-8">
-<link rel = "stylesheet" type = "text/css" href = "index.css">
-<title > Sample HTML5 File</title>
-	<script type = "text/javascript" charset = "utf-8">
-	// This function will be called once the page loads completely
-	function pageLoaded(){
-	alert('Hello World!');
-	}
-	</script>
-</head>
-<body onload = "pageLoaded();">
-	<canvas width = "640" height = "480" id = "testcanvas" style = "border:black 1px solid;">
-	Your browser does not support HTML5 Canvas. Please shift to another browser.
-	</canvas>
-</body>
+    <head>
+        <title>Lior's First JS Game</title>
+        <link href="normalize.css" type="text/css" rel="stylesheet" />
+        <script language="javascript" type="text/javascript" src="http://code.createjs.com/createjs-2013.12.12.min.js" ></script> <!-- createJs is basically awesome -->
+        <script language="javascript" type="text/javascript" src="init.js" ></script>
+    </head>
+    <body>
+        <canvas id="myCanvas"></canvas>
+    </body>
 </html>
